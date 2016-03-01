@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{81a97977-c081-467d-aca4-10c1290e719d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codecs">
+      <UniqueIdentifier>{fe6d354c-4e6e-4485-a121-552f8b02f05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{607007b0-37a7-47bf-a8b6-8ae8ef297b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Communication">
+      <UniqueIdentifier>{d0c9f3fc-3ef5-4038-92d6-2c5e64f1afc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{bee18352-975d-483d-9293-7984fde25a2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application\DecoderConnection.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application\DNDecoderConnectionImpl.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FastEncodedHeaderAnalyzer.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldInstruction.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldInstructionAscii.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldInstructionBlob.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldInstructionByteVector.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldInstructionDecimal.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldInstructionGroup.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldInstructionSequence.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldInstructionTemplateRef.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldInstructionUtf8.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldOp.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldOpConstant.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldOpCopy.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldOpDefault.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldOpDelta.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldOpIncrement.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FieldOpTail.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\FixedSizeHeaderAnalyzer.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\GenericMessageBuilder.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\MessagePerPacketAssembler.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\MulticastDecoder.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\PresenceMap.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\SchemaElement.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\SegmentBody.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\SingleMessageConsumer.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\StreamingAssembler.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\Template.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\TemplateRegistry.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\XMLTemplateParser.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\Context.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\DataSource.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\DataSourceBuffer.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\DataSourceBufferedStream.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\DataSourceStream.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\DataSourceString.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\Decoder.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\DictionaryIndexer.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Codecs\Encoder.cpp">
+      <Filter>Codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Decimal.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\dllmain.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Profiler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Types.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\WorkingBuffer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\BitMap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\ByteSwapper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Communication\AsynchSender.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Communication\FileSender.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Communication\MulticastReceiverHandle.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Communication\PCapReader.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Communication\AsioService.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Communication\AsynchFileSender.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldGroup.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldIdentity.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldInt8.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldInt16.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldInt32.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldInt64.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldSequence.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldSet.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldString.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldUInt8.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldUInt16.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldUInt32.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldUInt64.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldUtf8.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\Message.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\MessageAccessor.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\MessageBuilder.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\MessageFormatter.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\Field.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldAscii.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldByteVector.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Messages\FieldDecimal.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\QuickFASTPch.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="quickfast\Application\DecoderConfiguration_fwd.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Application\DecoderConnection.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Application\DecoderConnection_fwd.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Application\DNDecoderConnectionImpl.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Application\DNDecoderConnectionImpl_fwd.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Application\DecoderConfiguration.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\DataDestination.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\DataDestination_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\DataDestinationString.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\DataSource.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\DataSource_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\DataSourceBuffer.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\DataSourceBufferedStream.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\DataSourceStream.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\DataSourceString.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\Decoder.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\Decoder_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\DictionaryIndexer.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\DictionaryIndexer_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\Encoder.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\Encoder_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FastEncodedHeaderAnalyzer.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstruction.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstruction_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionAscii.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionBlob.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionByteVector.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionDecimal.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionExponent.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionGroup.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionInt8.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionInt16.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionInt32.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionInt64.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionInteger.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionMantissa.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionSequence.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionTemplateRef.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionUInt8.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionUInt16.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionUInt32.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionUInt64.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldInstructionUtf8.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldOp.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldOp_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldOpConstant.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldOpCopy.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldOpDefault.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldOpDelta.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldOpIncrement.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldOpNop.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FieldOpTail.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\FixedSizeHeaderAnalyzer.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\GenericMessageBuilder.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\HeaderAnalyzer.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\HeaderAnalyzer_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\MessageConsumer.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\MessageConsumer_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\MessagePerPacketAssembler.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\MessagePerPacketAssembler_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\MulticastDecoder.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\MulticastDecoder_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\NoHeaderAnalyzer.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\PresenceMap.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\PresenceMap_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\SchemaElement.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\SchemaElement_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\SegmentBody.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\SegmentBody_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\SingleMessageConsumer.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\StreamingAssembler.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\SynchronousDecoder.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\Template.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\Template_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\TemplateRegistry.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\TemplateRegistry_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\XMLTemplateParser.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\XMLTemplateParser_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\Context.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Codecs\Context_fwd.h">
+      <Filter>Codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\Decimal.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\Decimal_fwd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\Exceptions.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\Logger.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\Logger_fwd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\QuickFAST_Export.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\StringBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\Types.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\Value.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\Value_fwd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\Version.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\WorkingBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\AtomicCounter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\AtomicOps.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\AtomicPointer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\BitMap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\ByteSwapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Common\Constants.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AsynchReceiver.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AsynchReceiver_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AsynchSender.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AsynchSender_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AtomicQueue.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AtomicQueue_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\BufferReceiver.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\BufferReceiver_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\BufferRecycler.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\FileSender.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\FileSender_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\LinkedBuffer.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\LinkedBuffer_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\MulticastReceiver.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\MulticastReceiver_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\MulticastReceiverHandle.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\MulticastSender.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\MulticastSender_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\PCapFileReceiver.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\PCapFileReceiver_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\PCapReader.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\RawFileReceiver.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\RawFileReceiver_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\Receiver.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\Receiver_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\Sender.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\Sender_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\SynchReceiver.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\SynchReceiver_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\TCPReceiver.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\TCPReceiver_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AsioService.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AsioService_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\Assembler.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\Assembler_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AsynchFileReceiver.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AsynchFileReceiver_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AsynchFileSender.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Communication\AsynchFileSender_fwd.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldByteVector.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldDecimal.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldGroup.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldIdentity.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldIdentity_fwd.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldInt8.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldInt16.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldInt32.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldInt64.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldSequence.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldSet.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldSet_fwd.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldString.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldUInt8.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldUInt16.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldUInt32.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldUInt64.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldUtf8.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\Group.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\Group_fwd.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\Message.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\Message_fwd.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\MessageAccessor.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\MessageBuilder.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\MessageBuilder_fwd.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\MessageField.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\MessageField_fwd.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\MessageFormatter.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\Sequence.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\Sequence_fwd.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\SingleValueBuilder.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\SpecialAccessors.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\ValueMessageBuilder.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\ValueMessageBuilder_fwd.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\Field.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\Field_fwd.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\Messages\FieldAscii.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="quickfast\QuickFAST.h" />
+    <ClInclude Include="quickfast\Common\QuickFASTPch.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
