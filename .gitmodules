@@ -1,0 +1,3 @@
+[submodule "xerces-c"]
+	path = xerces-c
+	url = https://github.com/tarc/xerces-c.git

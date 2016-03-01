@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_StaticRT|Win32">
+      <Configuration>Debug_StaticRT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_StaticRT|x64">
+      <Configuration>Debug_StaticRT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_StaticRT|Win32">
+      <Configuration>Release_StaticRT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_StaticRT|x64">
+      <Configuration>Release_StaticRT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>QuickFAST_VC140</ProjectName>
+    <ProjectGuid>{6B6C5DA2-CE82-418B-96BB-B1B95E66A821}</ProjectGuid>
+    <RootNamespace>QuickFAST_VC140</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\lib\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'">$(SolutionDir)\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\lib\$(ProjectName)_32_d_mt_dll\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'">$(SolutionDir)\lib\$(ProjectName)_32_d_mt_static\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_32_d_mt_dll</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'">$(ProjectName)_32_d_mt_static</TargetName>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\lib\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'">$(SolutionDir)\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\lib\$(ProjectName)_32_r_mt_dll\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'">$(SolutionDir)\lib\$(ProjectName)_32_r_mt_static\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)_32_r_mt_dll</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'">$(ProjectName)_32_r_mt_static</TargetName>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\lib\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'">$(SolutionDir)\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)\lib\$(ProjectName)_64_d_mt_dll\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'">$(SolutionDir)\lib\$(ProjectName)_64_d_mt_static\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName)_64_d_mt_dll</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'">$(ProjectName)_64_d_mt_static</TargetName>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\lib\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">$(SolutionDir)\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\lib\$(ProjectName)_64_r_mt_dll\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">$(SolutionDir)\lib\$(ProjectName)_64_r_vc140_mt_static\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName)_64_r_mt_dll</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">$(ProjectName)_64_r_vc140_mt_static</TargetName>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'" />
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(BOOST_ROOT)\stage\lib;$(XERCES_ROOT)\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'">$(BOOST_ROOT)\stage\lib;$(XERCES_ROOT)\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(BOOST_ROOT)\stage\lib;$(XERCES_ROOT)\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'">$(BOOST_ROOT)\stage\lib;$(XERCES_ROOT)\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(BOOST_ROOT)\stage\lib64;$(XERCES_ROOT)\lib64;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">$(BOOST_ROOT)\stage\lib64;$(XERCES_ROOT)\lib64;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(BOOST_ROOT)\stage\lib64;$(XERCES_ROOT)\lib64;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'">$(BOOST_ROOT)\stage\lib64;$(XERCES_ROOT)\lib64;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir);$(BOOST_ROOT);$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'">$(ProjectDir);$(BOOST_ROOT);$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir);$(BOOST_ROOT);$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'">$(ProjectDir);$(BOOST_ROOT);$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir);$(BOOST_ROOT);$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'">$(ProjectDir);$(BOOST_ROOT);$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir);$(BOOST_ROOT);$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">$(ProjectDir);$(BOOST_ROOT);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir)xerces-c\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;USING_PCH;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include\boost_1_40_0;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\.;C:\Users\gabriel.bizzotto\Documents\code\quickfast_1_4_0\src;C:\Users\gabriel.bizzotto\Documents\code\Xerces\include;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>xerces-c_3d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>$(SolutionDir)\Output\$(ProjectName)_d_32.lib</ImportLibrary>
+    </Link>
+    <!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+    <!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir)xerces-c\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;XERCES_STATIC_LIBRARY;USING_PCH;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include\boost_1_40_0;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\.;C:\Users\gabriel.bizzotto\Documents\code\quickfast_1_4_0\src;C:\Users\gabriel.bizzotto\Documents\code\Xerces\include;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>xerces-c_3d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>$(SolutionDir)\Output\$(ProjectName)_d_32.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir)xerces-c\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;USING_PCH;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include\boost_1_40_0;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\.;C:\Users\gabriel.bizzotto\Documents\code\quickfast_1_4_0\src;C:\Users\gabriel.bizzotto\Documents\code\Xerces\include;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>xerces-c_3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(SolutionDir)\Output\$(ProjectName)_r_32</ImportLibrary>
+    </Link>
+    <!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+    <!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir)xerces-c\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;XERCES_STATIC_LIBRARY;USING_PCH;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include\boost_1_40_0;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\.;C:\Users\gabriel.bizzotto\Documents\code\quickfast_1_4_0\src;C:\Users\gabriel.bizzotto\Documents\code\Xerces\include;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>xerces-c_3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(SolutionDir)\Output\$(ProjectName)_r_32</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir)xerces-c\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;USING_PCH;_DEBUG;WIN64;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include\boost_1_40_0;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\.;C:\Users\gabriel.bizzotto\Documents\code\quickfast_1_4_0\src;C:\Users\gabriel.bizzotto\Documents\code\Xerces\include;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>xerces-c_3d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>$(SolutionDir)\Output\$(ProjectName)_d_64.lib</ImportLibrary>
+      <!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+      <!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+    <!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir)xerces-c\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>XERCES_STATIC_LIBRARY;QUICKFAST_BUILD_LIB;XERCES_STATIC_LIBRARY;USING_PCH;_DEBUG;WIN64;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include\boost_1_40_0;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\.;C:\Users\gabriel.bizzotto\Documents\code\quickfast_1_4_0\src;C:\Users\gabriel.bizzotto\Documents\code\Xerces\include;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>xerces-c_3d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ImportLibrary>$(SolutionDir)\Output\$(ProjectName)_d_64.lib</ImportLibrary>
+      <AdditionalOptions>/machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir)xerces-c\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;USING_PCH;NDEBUG;WIN64;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include\boost_1_40_0;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\.;C:\Users\gabriel.bizzotto\Documents\code\quickfast_1_4_0\src;C:\Users\gabriel.bizzotto\Documents\code\Xerces\include;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>xerces-c_3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(SolutionDir)\Output\$(ProjectName)_r_64.lib</ImportLibrary>
+      <!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+      <!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+    <!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(ProjectDir)xerces-c\src</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>XERCES_STATIC_LIBRARY;QUICKFAST_BUILD_LIB;XERCES_STATIC_LIBRARY;USING_PCH;NDEBUG;WIN64;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include\boost_1_40_0;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\.;C:\Users\gabriel.bizzotto\Documents\code\quickfast_1_4_0\src;C:\Users\gabriel.bizzotto\Documents\code\Xerces\include;C:\Users\gabriel.bizzotto\Documents\code\boost_1_40_0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>xerces-c_3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(SolutionDir)\Output\$(ProjectName)_r_64.lib</ImportLibrary>
+      <AdditionalOptions>/machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application\DecoderConnection.cpp" />
+    <ClCompile Include="src\Application\DNDecoderConnectionImpl.cpp" />
+    <ClCompile Include="src\Codecs\Context.cpp" />
+    <ClCompile Include="src\Codecs\DataSource.cpp" />
+    <ClCompile Include="src\Codecs\DataSourceBuffer.cpp" />
+    <ClCompile Include="src\Codecs\DataSourceBufferedStream.cpp" />
+    <ClCompile Include="src\Codecs\DataSourceStream.cpp" />
+    <ClCompile Include="src\Codecs\DataSourceString.cpp" />
+    <ClCompile Include="src\Codecs\Decoder.cpp" />
+    <ClCompile Include="src\Codecs\DictionaryIndexer.cpp" />
+    <ClCompile Include="src\Codecs\Encoder.cpp" />
+    <ClCompile Include="src\Codecs\FastEncodedHeaderAnalyzer.cpp" />
+    <ClCompile Include="src\Codecs\FieldInstruction.cpp" />
+    <ClCompile Include="src\Codecs\FieldInstructionAscii.cpp" />
+    <ClCompile Include="src\Codecs\FieldInstructionBlob.cpp" />
+    <ClCompile Include="src\Codecs\FieldInstructionByteVector.cpp" />
+    <ClCompile Include="src\Codecs\FieldInstructionDecimal.cpp" />
+    <ClCompile Include="src\Codecs\FieldInstructionGroup.cpp" />
+    <ClCompile Include="src\Codecs\FieldInstructionSequence.cpp" />
+    <ClCompile Include="src\Codecs\FieldInstructionTemplateRef.cpp" />
+    <ClCompile Include="src\Codecs\FieldInstructionUtf8.cpp" />
+    <ClCompile Include="src\Codecs\FieldOp.cpp" />
+    <ClCompile Include="src\Codecs\FieldOpConstant.cpp" />
+    <ClCompile Include="src\Codecs\FieldOpCopy.cpp" />
+    <ClCompile Include="src\Codecs\FieldOpDefault.cpp" />
+    <ClCompile Include="src\Codecs\FieldOpDelta.cpp" />
+    <ClCompile Include="src\Codecs\FieldOpIncrement.cpp" />
+    <ClCompile Include="src\Codecs\FieldOpTail.cpp" />
+    <ClCompile Include="src\Codecs\FixedSizeHeaderAnalyzer.cpp" />
+    <ClCompile Include="src\Codecs\GenericMessageBuilder.cpp" />
+    <ClCompile Include="src\Codecs\MessagePerPacketAssembler.cpp" />
+    <ClCompile Include="src\Codecs\MulticastDecoder.cpp" />
+    <ClCompile Include="src\Codecs\PresenceMap.cpp" />
+    <ClCompile Include="src\Codecs\SchemaElement.cpp" />
+    <ClCompile Include="src\Codecs\SegmentBody.cpp" />
+    <ClCompile Include="src\Codecs\SingleMessageConsumer.cpp" />
+    <ClCompile Include="src\Codecs\StreamingAssembler.cpp" />
+    <ClCompile Include="src\Codecs\Template.cpp" />
+    <ClCompile Include="src\Codecs\TemplateRegistry.cpp" />
+    <ClCompile Include="src\Codecs\XMLTemplateParser.cpp" />
+    <ClCompile Include="src\Common\BitMap.cpp" />
+    <ClCompile Include="src\Common\ByteSwapper.cpp" />
+    <ClCompile Include="src\Common\Decimal.cpp" />
+    <ClCompile Include="src\Common\dllmain.cpp" />
+    <ClCompile Include="src\Common\Profiler.cpp" />
+    <ClCompile Include="src\Common\QuickFASTPch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_StaticRT|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Common\Types.cpp" />
+    <ClCompile Include="src\Common\WorkingBuffer.cpp" />
+    <ClCompile Include="src\Communication\AsioService.cpp" />
+    <ClCompile Include="src\Communication\AsynchFileSender.cpp" />
+    <ClCompile Include="src\Communication\AsynchSender.cpp" />
+    <ClCompile Include="src\Communication\FileSender.cpp" />
+    <ClCompile Include="src\Communication\MulticastReceiverHandle.cpp" />
+    <ClCompile Include="src\Communication\PCapReader.cpp" />
+    <ClCompile Include="src\Messages\Field.cpp" />
+    <ClCompile Include="src\Messages\FieldAscii.cpp" />
+    <ClCompile Include="src\Messages\FieldByteVector.cpp" />
+    <ClCompile Include="src\Messages\FieldDecimal.cpp" />
+    <ClCompile Include="src\Messages\FieldGroup.cpp" />
+    <ClCompile Include="src\Messages\FieldIdentity.cpp" />
+    <ClCompile Include="src\Messages\FieldInt16.cpp" />
+    <ClCompile Include="src\Messages\FieldInt32.cpp" />
+    <ClCompile Include="src\Messages\FieldInt64.cpp" />
+    <ClCompile Include="src\Messages\FieldInt8.cpp" />
+    <ClCompile Include="src\Messages\FieldSequence.cpp" />
+    <ClCompile Include="src\Messages\FieldSet.cpp" />
+    <ClCompile Include="src\Messages\FieldString.cpp" />
+    <ClCompile Include="src\Messages\FieldUInt16.cpp" />
+    <ClCompile Include="src\Messages\FieldUInt32.cpp" />
+    <ClCompile Include="src\Messages\FieldUInt64.cpp" />
+    <ClCompile Include="src\Messages\FieldUInt8.cpp" />
+    <ClCompile Include="src\Messages\FieldUtf8.cpp" />
+    <ClCompile Include="src\Messages\Message.cpp" />
+    <ClCompile Include="src\Messages\MessageAccessor.cpp" />
+    <ClCompile Include="src\Messages\MessageBuilder.cpp" />
+    <ClCompile Include="src\Messages\MessageFormatter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="quickfast\Application\DecoderConfiguration.h" />
+    <ClInclude Include="quickfast\Application\DecoderConfiguration_fwd.h" />
+    <ClInclude Include="quickfast\Application\DecoderConnection.h" />
+    <ClInclude Include="quickfast\Application\DecoderConnection_fwd.h" />
+    <ClInclude Include="quickfast\Application\DNDecoderConnectionImpl.h" />
+    <ClInclude Include="quickfast\Application\DNDecoderConnectionImpl_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\Context.h" />
+    <ClInclude Include="quickfast\Codecs\Context_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\DataDestination.h" />
+    <ClInclude Include="quickfast\Codecs\DataDestinationString.h" />
+    <ClInclude Include="quickfast\Codecs\DataDestination_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\DataSource.h" />
+    <ClInclude Include="quickfast\Codecs\DataSourceBuffer.h" />
+    <ClInclude Include="quickfast\Codecs\DataSourceBufferedStream.h" />
+    <ClInclude Include="quickfast\Codecs\DataSourceStream.h" />
+    <ClInclude Include="quickfast\Codecs\DataSourceString.h" />
+    <ClInclude Include="quickfast\Codecs\DataSource_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\Decoder.h" />
+    <ClInclude Include="quickfast\Codecs\Decoder_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\DictionaryIndexer.h" />
+    <ClInclude Include="quickfast\Codecs\DictionaryIndexer_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\Encoder.h" />
+    <ClInclude Include="quickfast\Codecs\Encoder_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\FastEncodedHeaderAnalyzer.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstruction.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionAscii.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionBlob.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionByteVector.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionDecimal.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionExponent.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionGroup.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionInt16.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionInt32.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionInt64.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionInt8.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionInteger.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionMantissa.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionSequence.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionTemplateRef.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionUInt16.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionUInt32.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionUInt64.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionUInt8.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstructionUtf8.h" />
+    <ClInclude Include="quickfast\Codecs\FieldInstruction_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\FieldOp.h" />
+    <ClInclude Include="quickfast\Codecs\FieldOpConstant.h" />
+    <ClInclude Include="quickfast\Codecs\FieldOpCopy.h" />
+    <ClInclude Include="quickfast\Codecs\FieldOpDefault.h" />
+    <ClInclude Include="quickfast\Codecs\FieldOpDelta.h" />
+    <ClInclude Include="quickfast\Codecs\FieldOpIncrement.h" />
+    <ClInclude Include="quickfast\Codecs\FieldOpNop.h" />
+    <ClInclude Include="quickfast\Codecs\FieldOpTail.h" />
+    <ClInclude Include="quickfast\Codecs\FieldOp_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\FixedSizeHeaderAnalyzer.h" />
+    <ClInclude Include="quickfast\Codecs\GenericMessageBuilder.h" />
+    <ClInclude Include="quickfast\Codecs\HeaderAnalyzer.h" />
+    <ClInclude Include="quickfast\Codecs\HeaderAnalyzer_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\MessageConsumer.h" />
+    <ClInclude Include="quickfast\Codecs\MessageConsumer_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\MessagePerPacketAssembler.h" />
+    <ClInclude Include="quickfast\Codecs\MessagePerPacketAssembler_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\MulticastDecoder.h" />
+    <ClInclude Include="quickfast\Codecs\MulticastDecoder_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\NoHeaderAnalyzer.h" />
+    <ClInclude Include="quickfast\Codecs\PresenceMap.h" />
+    <ClInclude Include="quickfast\Codecs\PresenceMap_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\SchemaElement.h" />
+    <ClInclude Include="quickfast\Codecs\SchemaElement_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\SegmentBody.h" />
+    <ClInclude Include="quickfast\Codecs\SegmentBody_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\SingleMessageConsumer.h" />
+    <ClInclude Include="quickfast\Codecs\StreamingAssembler.h" />
+    <ClInclude Include="quickfast\Codecs\SynchronousDecoder.h" />
+    <ClInclude Include="quickfast\Codecs\Template.h" />
+    <ClInclude Include="quickfast\Codecs\TemplateRegistry.h" />
+    <ClInclude Include="quickfast\Codecs\TemplateRegistry_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\Template_fwd.h" />
+    <ClInclude Include="quickfast\Codecs\XMLTemplateParser.h" />
+    <ClInclude Include="quickfast\Codecs\XMLTemplateParser_fwd.h" />
+    <ClInclude Include="quickfast\Common\AtomicCounter.h" />
+    <ClInclude Include="quickfast\Common\AtomicOps.h" />
+    <ClInclude Include="quickfast\Common\AtomicPointer.h" />
+    <ClInclude Include="quickfast\Common\BitMap.h" />
+    <ClInclude Include="quickfast\Common\ByteSwapper.h" />
+    <ClInclude Include="quickfast\Common\Constants.h" />
+    <ClInclude Include="quickfast\Common\Decimal.h" />
+    <ClInclude Include="quickfast\Common\Decimal_fwd.h" />
+    <ClInclude Include="quickfast\Common\Exceptions.h" />
+    <ClInclude Include="quickfast\Common\Logger.h" />
+    <ClInclude Include="quickfast\Common\Logger_fwd.h" />
+    <ClInclude Include="quickfast\Common\Profiler.h" />
+    <ClInclude Include="quickfast\Common\QuickFASTPch.h" />
+    <ClInclude Include="quickfast\Common\QuickFAST_Export.h" />
+    <ClInclude Include="quickfast\Common\StringBuffer.h" />
+    <ClInclude Include="quickfast\Common\Types.h" />
+    <ClInclude Include="quickfast\Common\Value.h" />
+    <ClInclude Include="quickfast\Common\Value_fwd.h" />
+    <ClInclude Include="quickfast\Common\Version.h" />
+    <ClInclude Include="quickfast\Common\WorkingBuffer.h" />
+    <ClInclude Include="quickfast\Communication\AsioService.h" />
+    <ClInclude Include="quickfast\Communication\AsioService_fwd.h" />
+    <ClInclude Include="quickfast\Communication\Assembler.h" />
+    <ClInclude Include="quickfast\Communication\Assembler_fwd.h" />
+    <ClInclude Include="quickfast\Communication\AsynchFileReceiver.h" />
+    <ClInclude Include="quickfast\Communication\AsynchFileReceiver_fwd.h" />
+    <ClInclude Include="quickfast\Communication\AsynchFileSender.h" />
+    <ClInclude Include="quickfast\Communication\AsynchFileSender_fwd.h" />
+    <ClInclude Include="quickfast\Communication\AsynchReceiver.h" />
+    <ClInclude Include="quickfast\Communication\AsynchReceiver_fwd.h" />
+    <ClInclude Include="quickfast\Communication\AsynchSender.h" />
+    <ClInclude Include="quickfast\Communication\AsynchSender_fwd.h" />
+    <ClInclude Include="quickfast\Communication\AtomicQueue.h" />
+    <ClInclude Include="quickfast\Communication\AtomicQueue_fwd.h" />
+    <ClInclude Include="quickfast\Communication\BufferReceiver.h" />
+    <ClInclude Include="quickfast\Communication\BufferReceiver_fwd.h" />
+    <ClInclude Include="quickfast\Communication\BufferRecycler.h" />
+    <ClInclude Include="quickfast\Communication\FileSender.h" />
+    <ClInclude Include="quickfast\Communication\FileSender_fwd.h" />
+    <ClInclude Include="quickfast\Communication\LinkedBuffer.h" />
+    <ClInclude Include="quickfast\Communication\LinkedBuffer_fwd.h" />
+    <ClInclude Include="quickfast\Communication\MulticastReceiver.h" />
+    <ClInclude Include="quickfast\Communication\MulticastReceiverHandle.h" />
+    <ClInclude Include="quickfast\Communication\MulticastReceiver_fwd.h" />
+    <ClInclude Include="quickfast\Communication\MulticastSender.h" />
+    <ClInclude Include="quickfast\Communication\MulticastSender_fwd.h" />
+    <ClInclude Include="quickfast\Communication\PCapFileReceiver.h" />
+    <ClInclude Include="quickfast\Communication\PCapFileReceiver_fwd.h" />
+    <ClInclude Include="quickfast\Communication\PCapReader.h" />
+    <ClInclude Include="quickfast\Communication\RawFileReceiver.h" />
+    <ClInclude Include="quickfast\Communication\RawFileReceiver_fwd.h" />
+    <ClInclude Include="quickfast\Communication\Receiver.h" />
+    <ClInclude Include="quickfast\Communication\Receiver_fwd.h" />
+    <ClInclude Include="quickfast\Communication\Sender.h" />
+    <ClInclude Include="quickfast\Communication\Sender_fwd.h" />
+    <ClInclude Include="quickfast\Communication\SynchReceiver.h" />
+    <ClInclude Include="quickfast\Communication\SynchReceiver_fwd.h" />
+    <ClInclude Include="quickfast\Communication\TCPReceiver.h" />
+    <ClInclude Include="quickfast\Communication\TCPReceiver_fwd.h" />
+    <ClInclude Include="quickfast\Messages\Field.h" />
+    <ClInclude Include="quickfast\Messages\FieldAscii.h" />
+    <ClInclude Include="quickfast\Messages\FieldByteVector.h" />
+    <ClInclude Include="quickfast\Messages\FieldDecimal.h" />
+    <ClInclude Include="quickfast\Messages\FieldGroup.h" />
+    <ClInclude Include="quickfast\Messages\FieldIdentity.h" />
+    <ClInclude Include="quickfast\Messages\FieldIdentity_fwd.h" />
+    <ClInclude Include="quickfast\Messages\FieldInt16.h" />
+    <ClInclude Include="quickfast\Messages\FieldInt32.h" />
+    <ClInclude Include="quickfast\Messages\FieldInt64.h" />
+    <ClInclude Include="quickfast\Messages\FieldInt8.h" />
+    <ClInclude Include="quickfast\Messages\FieldSequence.h" />
+    <ClInclude Include="quickfast\Messages\FieldSet.h" />
+    <ClInclude Include="quickfast\Messages\FieldSet_fwd.h" />
+    <ClInclude Include="quickfast\Messages\FieldString.h" />
+    <ClInclude Include="quickfast\Messages\FieldUInt16.h" />
+    <ClInclude Include="quickfast\Messages\FieldUInt32.h" />
+    <ClInclude Include="quickfast\Messages\FieldUInt64.h" />
+    <ClInclude Include="quickfast\Messages\FieldUInt8.h" />
+    <ClInclude Include="quickfast\Messages\FieldUtf8.h" />
+    <ClInclude Include="quickfast\Messages\Field_fwd.h" />
+    <ClInclude Include="quickfast\Messages\Group.h" />
+    <ClInclude Include="quickfast\Messages\Group_fwd.h" />
+    <ClInclude Include="quickfast\Messages\Message.h" />
+    <ClInclude Include="quickfast\Messages\MessageAccessor.h" />
+    <ClInclude Include="quickfast\Messages\MessageBuilder.h" />
+    <ClInclude Include="quickfast\Messages\MessageBuilder_fwd.h" />
+    <ClInclude Include="quickfast\Messages\MessageField.h" />
+    <ClInclude Include="quickfast\Messages\MessageField_fwd.h" />
+    <ClInclude Include="quickfast\Messages\MessageFormatter.h" />
+    <ClInclude Include="quickfast\Messages\Message_fwd.h" />
+    <ClInclude Include="quickfast\Messages\Sequence.h" />
+    <ClInclude Include="quickfast\Messages\Sequence_fwd.h" />
+    <ClInclude Include="quickfast\Messages\SingleValueBuilder.h" />
+    <ClInclude Include="quickfast\Messages\SpecialAccessors.h" />
+    <ClInclude Include="quickfast\Messages\ValueMessageBuilder.h" />
+    <ClInclude Include="quickfast\Messages\ValueMessageBuilder_fwd.h" />
+    <ClInclude Include="quickfast\QuickFAST.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="xerces-c\projects\Win32\VC12\xerces-all\XercesLib\XercesLib.vcxproj">
+      <Project>{152ce948-f659-4206-a50a-1d2b9658ef96}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
