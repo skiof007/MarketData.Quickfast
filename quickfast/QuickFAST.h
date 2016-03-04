@@ -28,8 +28,10 @@
 	#if !defined(_MSC_VER)
 		#error "Invalid compiler!"
 	#else
-		#if _MSC_VER >= 1800
-			#error "Invalid compiler!"
+		#if _MSC_VER >= 1900
+			#define QUICKFAST_COMPILER_VERSION "_VC140"
+		#elif _MSC_VER >= 1800
+			#define QUICKFAST_COMPILER_VERSION "_VC120"
 		#elif _MSC_VER >= 1700
 			#define QUICKFAST_COMPILER_VERSION "_VC110"
 		#elif _MSC_VER >= 1600
