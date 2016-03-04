@@ -246,3 +246,6 @@ _Pvt_Extensions
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# Custom properties for paths of external projects
+/customBuildProperties.props
