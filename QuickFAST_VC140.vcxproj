@@ -176,11 +176,11 @@
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\lib\</OutDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">$(SolutionDir)\lib\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)\lib\$(ProjectName)_64_r_mt_dll\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">$(SolutionDir)\lib\$(ProjectName)_64_r_vc140_mt_static\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">$(SolutionDir)\lib\$(ProjectName)_64_r_mt_static\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">false</LinkIncremental>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName)_64_r_mt_dll</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">$(ProjectName)_64_r_vc140_mt_static</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">$(ProjectName)_64_r_mt_static</TargetName>
     <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_StaticRT|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
