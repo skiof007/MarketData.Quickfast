@@ -1,3 +1,3 @@
 [submodule "xerces-c"]
-	path = xerces-c
+	path = submodules/xerces-c
 	url = https://github.com/clearctvm/MarketData.Xerces.git
