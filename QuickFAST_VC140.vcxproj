@@ -216,7 +216,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)..\submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;USING_PCH;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -256,7 +256,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)..\submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;XERCES_STATIC_LIBRARY;USING_PCH;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -292,7 +292,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)..\submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;USING_PCH;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -334,7 +334,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)..\submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;XERCES_STATIC_LIBRARY;USING_PCH;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -370,7 +370,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)..\submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;USING_PCH;_DEBUG;WIN64;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -417,7 +417,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)..\submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>XERCES_STATIC_LIBRARY;QUICKFAST_BUILD_LIB;XERCES_STATIC_LIBRARY;USING_PCH;_DEBUG;WIN64;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -454,7 +454,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)..\submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>QUICKFAST_BUILD_LIB;USING_PCH;NDEBUG;WIN64;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -503,7 +503,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(SolutionDir)..\submodules\xerces-c\src;$(BOOST_ROOT)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>XERCES_STATIC_LIBRARY;QUICKFAST_BUILD_LIB;XERCES_STATIC_LIBRARY;USING_PCH;NDEBUG;WIN64;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>

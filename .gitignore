@@ -248,4 +248,4 @@ _Pvt_Extensions
 *.sln.iml
 
 # Custom properties for paths of external projects
-/customBuildProperties.props
+customBuildProperties.props
