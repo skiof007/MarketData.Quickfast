@@ -7,10 +7,8 @@ This is a custom version of the [QuickFast](https://github.com/objectcomputing/q
 
 First, the repository must be cloned along with its submodules:
 
-	git clone https://github.com/clearctvm/MarketData.Quickfast.git
+	git clone --recursive https://github.com/clearctvm/MarketData.Quickfast.git
 	cd MarketData.Quickfast
-	git submodule init
-	git submodule update
 
 It is necessary to set the Boost path for the Quickfast project. If there is a `BOOST_ROOT` environment variable set to the root of the Boost distribution, the file [`customBuildProperties.props.skel`](/solutions/customBuildProperties.props.skel), located under the `solutions` subdir, can be used as is:
 
