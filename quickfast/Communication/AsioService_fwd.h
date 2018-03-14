@@ -11,7 +11,9 @@ namespace boost
 {
   namespace asio
   {
-    class io_service;
+    class io_context;
+
+    typedef io_context io_service;
   }
 }
 
