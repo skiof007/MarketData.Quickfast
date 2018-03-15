@@ -218,6 +218,9 @@
       <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/DBOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>
+      </LanguageStandard>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -258,6 +261,9 @@
       <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/DBOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>
+      </LanguageStandard>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -293,6 +299,9 @@
       <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/DBOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>
+      </LanguageStandard>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -335,6 +344,9 @@
       <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/DBOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>
+      </LanguageStandard>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -372,6 +384,9 @@
       <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/DBOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>
+      </LanguageStandard>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -419,6 +434,9 @@
       <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/DBOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>
+      </LanguageStandard>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -455,6 +473,9 @@
       <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/DBOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>
+      </LanguageStandard>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -504,6 +525,9 @@
       <PrecompiledHeaderFile>quickfast\Common\QuickFASTPch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/DBOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>
+      </LanguageStandard>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
